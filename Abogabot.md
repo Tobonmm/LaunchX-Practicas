@@ -39,4 +39,7 @@
 
 - Agrega comentarios en cada paso del proceso. 
 
+ ### ***Diagrama de Flujo***
+ 
+ ![alt text](https://github.com/Tobonmm/LaunchX-Practicas/blob/44a6d2544d4f8f38d73677176f959222b56a9438/Images/imagen_2022-10-18_005756682.png)
  
