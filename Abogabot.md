@@ -46,4 +46,7 @@
  # ***2. Buyer Persona:*** 
  
   ![alt text](https://github.com/Tobonmm/LaunchX-Practicas/blob/0f281f13158551fa83db8a2135f0289d2cfdaade/Images/imagen_2022-10-18_232104429.png)
+  
+ # ***3. Público Objetivo:*** 
  
+  ![alt text](https://github.com/Tobonmm/LaunchX-Practicas/blob/172e026c9e82085535fcfa0af22557f9aec2b331/Images/imagen_2022-10-19_005816119.png)
