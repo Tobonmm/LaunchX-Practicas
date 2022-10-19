@@ -43,3 +43,7 @@
  
  ![alt text](https://github.com/Tobonmm/LaunchX-Practicas/blob/44a6d2544d4f8f38d73677176f959222b56a9438/Images/imagen_2022-10-18_005756682.png)
  
+ # ***2. Buyer Persona:*** 
+ 
+  ![alt text](https://github.com/Tobonmm/LaunchX-Practicas/blob/0f281f13158551fa83db8a2135f0289d2cfdaade/Images/imagen_2022-10-18_232104429.png)
+ 
