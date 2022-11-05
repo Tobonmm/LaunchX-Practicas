@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Pinkman</title>
+    <link rel="stylesheet" href="./styleIndex.css">
+    <style> 
+    *{
+        background-color: rgb(251, 246, 219);
+    }
+    nav {
+        text-align: center;
+        font-size: 40px;
+        padding: 10px;
+        background-color: rgb(249, 238, 224);
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <header>Pasteleria Pinkman</header>
+    </nav>
+  
+    <img src="./images/PINKMAN.png" alt="Logo Pasteleria Pinkman" width="200px">
+    <hr>
+    
+   <h2>¿Cuál es tu sabor favorito?</h2>
+
+    <div class="container">
+        <ul> 
+            <li class="chocolate">Chocolate
+                <br>
+                <span class="descrip">Inólvidable pastel de chocolate cubierto con betún.</span>
+                <br>
+                <span class="precio">$400.00</span>
+            </li>
+            <br>
+            <li class="cajeta">Cajeta
+                <br>
+                <span class="descrip">Irresistible Pastel de tres leches cubierto con nuestra deliciosa cajeta.</span>
+                <br>
+                <span class="precio">$550.00</span>
+            </li>
+            <br>
+            <li class="zanahoria">Zanahoria
+                <br>
+                <span class="descrip">Pastel de zanahoria cubierto con betún de queso crema.</span>
+                <br>
+                <span class="precio">$450.00</span>
+            </li>
+            <br>
+            <li class="trufa">Trufa
+                <br>
+                <span class="descrip">Deliciosa combinación de pan, mousse de chocolate y nuez, bañado con ganache semi-amargo.</span>
+                <br>
+                <span class="precio">$600.00</span>
+            </li>
+            <br>
+            <li class="limon">Limón
+                <br>
+                <span class="descrip">Pastel de limón cubierto y relleno con delicioso betún.</span>
+                <br>
+                <span class="precio">$380.00</span>
+            </li>
+            
+    
+        </ul>
+    </div>
+
+    <hr>
+
+    <h2>Decoraciones</h2>
+    <div class="containerDec">
+        <ul>
+            <li class="dripcakes">Drip Cakes
+                <br>
+                <span class="descDrip">Pasteles decorados con un goteo artístico que cubre la parte superior y se desliza por todas las capas.</span>
+                <br>
+            </li>
+            <br>
+            <li class="marmol">Cobertura Tipo Mármol
+                <br>
+                <span class="descMarmol">Este es un estilo que se caracteriza por dar ese toque de elegancia, modernidad y al mismo tiempo simplicidad.</span>
+                <br>
+            </li>
+            <br>
+            <li class="textu3d">Texturizado en 3D
+                <br>
+                <span class="desc3D">Se caracterizan por el uso de patrones. Este tipo de decorado le da un toque creativo y moderno al pastel.</span>
+                <br>
+            </li>
+        </ul>
+
+    </div>
+
+    <hr>
+
+    <h2>Ubicación</h2>
+    <h3>Sucursales</h3>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Ubicación</th>
+            <th>Horarios</th>
+        </tr>
+        <tr>
+            <td>Centro</td>
+            <td><a href="http://google.com" target="_blank" >Bosques de Europa 90, Bosques de Aragon</a> </td>
+            <td>Lunes a Viernes 11 am - 8 pm</td>
+        </tr>
+        <tr>
+            <td>Sur</td>
+            <td><a href="http://google.com" target="_blank" >Eje 3 Nte. Camarones 108, San Salvador</a> </td>
+            <td>Lunes a Viernes 11 am - 8 pm</td>
+        </tr>
+        <tr>
+            <td>Norte</td>
+            <td><a href="http://google.com" target="_blank" >Boulevard Manuel Ávila Camacho Norte Conjunto</a> </td>
+            <td>Lunes a Viernes 11 am - 8 pm</td>
+        </tr>
+
+
+        
+    </table>
+    <br>
+    <hr>
+
+    <h2>Pedidos</h2>
+    <h3>Haz tu pedido aquí</h3>
+
+    <form action="">
+        <p>¿De qué Sucursal quieres?</p>
+        <select name="" id="">
+            <option value="Norte">Norte</option>
+            <option value="Centro">Centro</option>
+            <option value="Sur">Sur</option>
+        </select>
+
+        <p>¿De que pastel quieres?</p>
+        <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+        <label for="Chocolate">Pastel de Chocolate</label>
+        <input type="number" name="cuantosChocolate" id="cuantosChocolate" placeholder="¿Cuantos?">
+        <br>
+        <input type="checkbox" id="Cajeta" name="Cajeta" value="Cajeta">
+        <label for="Cajeta">Pastel de Cajeta</label>
+        <input type="number" name="cuantosCajeta" id="cuantosCajeta" placeholder="¿Cuantos?">
+        <br>
+        <input type="checkbox" id="Zanahoria" name="Zanahoria" value="Zanahoria">
+        <label for="zanahoria">Pastel de Zanahoria</label>
+        <input type="number" name="cuantosZanahoria" id="cuantosZanahoria" placeholder="¿Cuantos?">
+        <br>
+        <input type="checkbox" id="Trufa" name="Trufa" value="Trufa">
+        <label for="Trufa">Pastel de Trufa</label>
+        <input type="number" name="cuantosTrufa" id="cuantosTrufa" placeholder="¿Cuantos?">
+        <br>
+        <input type="checkbox" id="Limon" name="Limon" value="Limon">
+        <label for="Limon">Pastel de Limón</label>
+        <input type="number" name="cuantosLimon" id="cuantosLimon" placeholder="¿Cuantos?">
+        <br>
+        <br>
+        <input type="checkbox" id="combinado" name="combinado" value="combinado">
+        <label for="combinado">Pastel Combinado</label>
+        <br>
+        <label for="combinadoSabor1">Sabor 1</label>
+        <select name="combinado" id="combinado">
+            <option value="Chocolate">Chocolate</option>
+            <option value="Cajeta">Cajeta</option>
+            <option value="Zanahoria">Zanahoria</option>
+            <option value="Tufa">Trufa</option>
+            <option value="Limon">Limón</option>
+        </select>
+        <label for="combinadoSabor2">| Sabor 2</label>
+        <select name="combinado" id="combinado">
+            <option value="Chocolate">Chocolate</option>
+            <option value="Cajeta">Cajeta</option>
+            <option value="Zanahoria">Zanahoria</option>
+            <option value="Tufa">Trufa</option>
+            <option value="Limon">Limón</option>
+        </select>
+        <br><br>
+        <p>¿Qué decoración quieres?</p>
+        <select name="" id="">
+            <option value="dripcake">Drip Cake</option>
+            <option value="marmol">Cobertura Tipo Marmol</option>
+            <option value="3d">Texturizado en 3D</option>
+        </select>
+        <br>
+        <br>
+        <hr>
+        <h2>Danos tus datos</h2>
+        <label for="Nombre">Nombre: </label><br>
+        <input type="text" name="Nombre" id="Nombre" placeholder="¿Cómo te llamas?">
+        <br><br>
+        <label for="Telefono">Telefono: </label><br>
+        <input type="text" name="Telefono" id="Telefono" placeholder="¿Teléfono?">
+        <br><br>
+        <label for="Dirección">Dirección: </label><br>
+        <input type="text" name="Dirección" id="Dirección" placeholder="¿Dirección?">
+        <br><br>
+        <button type="submit">Enviar pedido</button>
+
+    </form>
+    
+    <br>
+    
+</body>
+</html>
